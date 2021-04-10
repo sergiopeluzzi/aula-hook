@@ -7,7 +7,6 @@ export default class MyList extends Component {
             <View>
                 <Text> textInComponent </Text>
                 <Text> textInComponent </Text>
-                <Text> textInComponent </Text>
             </View>
         )
     }
