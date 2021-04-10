@@ -6,6 +6,8 @@ export default class MyList extends Component {
         return (
             <View>
                 <Text> textInComponent </Text>
+                <Text> textInComponent </Text>
+                <Text> textInComponent </Text>
             </View>
         )
     }
