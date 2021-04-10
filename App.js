@@ -1,11 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Animated, Button, StyleSheet, Text, View } from 'react-native';
 
 //APP como function
 export default function App() {
 
   const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    return () => {
+      
+    }
+  })
 
   return (
     <View style={styles.container}>

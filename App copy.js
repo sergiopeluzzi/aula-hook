@@ -10,7 +10,7 @@ export default class App extends Component {
       count: 0
     }
   }
-  
+
   render() {
     return (
       <View style={styles.container}>
